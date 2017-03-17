@@ -139,7 +139,7 @@
   /*----------------------------------------------------*/
    
    $('#typed').typed({
-  	strings: ["web developer", "mobile developer", "game developer", "quantum computing researcher", "deep space lover", "just a human"],
+  	strings: ["developer", "educator", "traveller", "quantum computing researcher", "deep space lover", "just a human"],
   	typeSpeed: 40,
     loop: true
   });
@@ -188,11 +188,3 @@
    });
 
 });
-
-
-
-
-
-
-
-
