@@ -23,10 +23,36 @@
 	    });
 	});
 
+  function getRelatedContent(el){
+    return $($(el).attr('href'));
+  }
+  // Get link by section or article id
+  function getRelatedNavigation(el){
+    return $('nav a[href=#'+$(el).attr('id')+']');
+  }
+
+  $('.section')
+   .waypoint(function(direction) {
+     // Highlight element when related content
+     // is 10% percent from the bottom... 
+     // remove if below
+     getRelatedNavigation(this).toggleClass('active', direction === 'down');
+   }, {
+     offset: '90%' // 
+   })
+   .waypoint(function(direction) {
+     // Highlight element when bottom of related content
+     // is 100px from the top - remove if less
+     // TODO - make function for this
+     getRelatedNavigation(this).toggleClass('active', direction === 'up');
+   }, {
+     offset: function() {  return -$(this).height() + 100; }
+   });
+
 /*----------------------------------------------------*/
 /* Highlight the current section in the navigation bar
 ------------------------------------------------------*/
-	var sections = $(".section");
+	/*var sections = $(".section");
   console.log(sections);
 	var navigation_links = $("#nav-wrap #nav a");
   console.log(navigation_links);
@@ -42,7 +68,7 @@
   			active_link.parent().addClass("current");
   		},
 		  offset: '35%'
-	});
+	});*/
 
 /*----------------------------------------------------*/
 /*	Make sure that #header-background-image height is
