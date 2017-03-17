@@ -34,7 +34,7 @@ function getRelatedNavigation(el){
      // Highlight element when related content
      // is 10% percent from the bottom... 
      // remove if below
-     $('#nav-wrap #nav #a[href=#' + $(this).attr('id') +'"]"').toggleClass('active', direction === 'down');
+     $('#nav-wrap #nav #a[href="#' + $(this).attr('id') +']"').toggleClass('active', direction === 'down');
    }, {
      offset: '90%' // 
    })
@@ -42,7 +42,7 @@ function getRelatedNavigation(el){
      // Highlight element when bottom of related content
      // is 100px from the top - remove if less
      // TODO - make function for this
-    $('#nav-wrap #nav #a[href=#' + $(this).attr('id') +'"]"').toggleClass('active', direction === 'up');
+    $('#nav-wrap #nav #a[href="#' + $(this).attr('id') +']"').toggleClass('active', direction === 'up');
    }, {
      offset: function() {  return - $(this).height() + 100; }
    });
