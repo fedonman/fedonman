@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FuturaRegular';
+    src: url('fonts/FuturaRegular.eot');
+    src: url('fonts/FuturaRegular.eot') format('embedded-opentype'),
+         url('fonts/FuturaRegular.woff2') format('woff2'),
+         url('fonts/FuturaRegular.woff') format('woff'),
+         url('fonts/FuturaRegular.ttf') format('truetype'),
+         url('fonts/FuturaRegular.svg#FuturaRegular') format('svg');
+}
