@@ -2,11 +2,6 @@
 /* MAIN JS
 -----------------------------------------------------------------------------------*/
 
-// Get link by section or article id
-function getRelatedNavigation(el){
-  return $('#nav-wrap #nav a[href=#'+$(el).attr('id')+']');
-}
-
  jQuery(document).ready(function($) {
 /*----------------------------------------------------*/
 /* FitText Settings
@@ -29,16 +24,20 @@ function getRelatedNavigation(el){
 	    });
 	});
 
-  $('.section').waypoint(function(direction) {
-     // Highlight element when related content
-     // is 10% percent from the bottom... 
-     // remove if below
-     var id = $(this).attr("id");
-     console.log(id);
-     $('#nav-wrap #nav a[href="#' + id +']"').parent().toggleClass('current', direction === 'down');
-   }, {
-     offset: '90%' // 
-   });
+  $('.section').waypoint({
+    handler: function(direction) {
+        // Highlight element when related content
+        // is 10% percent from the bottom... 
+        // remove if below
+        var id = $(this).attr('id');
+        console.log(id);
+        if(direction === 'down') {
+          console.log($('#nav-wrap #nav a[href="#' + id +']"'));
+           $('#nav-wrap #nav a[href="#' + id +']"').parent().toggleClass('current');
+        }
+    },
+    offset: '90%'
+  });
 
 /*----------------------------------------------------*/
 /* Highlight the current section in the navigation bar
