@@ -30,7 +30,8 @@
         // is 10% percent from the bottom... 
         // remove if below
         console.log($(this));
-        var id = $(this).attr('id');
+        console.log($(this).element);
+        var id = $(this).element.attr('id');
         console.log(id);
         if(direction === 'down') {
           console.log($('#nav-wrap #nav a[href="#' + id +']"'));
