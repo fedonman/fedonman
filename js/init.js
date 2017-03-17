@@ -27,9 +27,11 @@
 /* Highlight the current section in the navigation bar
 ------------------------------------------------------*/
 	var sections = $("section");
+  console.log(sections);
 	var navigation_links = $("#nav-wrap a");
+  console.log(navigation_links);
 	sections.waypoint({
-      handler: function(event, direction) {
+      handler: function(direction) {
   		  var active_section;
   			active_section = $(this);
   			if (direction === "up") {
