@@ -29,6 +29,7 @@
         // Highlight element when related content
         // is 10% percent from the bottom... 
         // remove if below
+        console.log($(this));
         var id = $(this).attr('id');
         console.log(id);
         if(direction === 'down') {
