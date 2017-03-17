@@ -1,6 +1,7 @@
 /*-----------------------------------------------------------------------------------
 /* MAIN JS
 -----------------------------------------------------------------------------------*/
+
  jQuery(document).ready(function($) {
 /*----------------------------------------------------*/
 /* FitText Settings
@@ -23,13 +24,29 @@
 	    });
 	});
 
+  var navigation_links = $("#nav-wrap #nav a");
+  $('.section').waypoint({
+    handler: function(direction) {
+        var current = $(this)[0];
+        if (direction === "up") {
+          current = current.previous();
+        }
+        var id = current.element.id;
+        navigation_links.parent().removeClass('current');
+        $('#nav-wrap #nav a[href="#' + id +'"]').parent().addClass('current');
+    },
+    offset: '35%'
+  });
+
 /*----------------------------------------------------*/
 /* Highlight the current section in the navigation bar
 ------------------------------------------------------*/
-	var sections = $("section");
-	var navigation_links = $("#nav-wrap a");
+	/*var sections = $(".section");
+  console.log(sections);
+	var navigation_links = $("#nav-wrap #nav a");
+  console.log(navigation_links);
 	sections.waypoint({
-      handler: function(event, direction) {
+      handler: function(direction) {
   		  var active_section;
   			active_section = $(this);
   			if (direction === "up") {
@@ -40,7 +57,7 @@
   			active_link.parent().addClass("current");
   		},
 		  offset: '35%'
-	});
+	});*/
 
 /*----------------------------------------------------*/
 /*	Make sure that #header-background-image height is
@@ -55,12 +72,12 @@
 /*----------------------------------------------------*/
 /*	Fade In/Out Primary Navigation
 ------------------------------------------------------*/
-   $(window).on('scroll', function() {
+  $(window).on('scroll', function() {
 		var h = $('header').height();
 		var y = $(window).scrollTop();
     var nav = $('#nav-wrap');
     if ( (y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
-      nav.fadeOut('fast');
+      //nav.fadeOut('fast');
     }
     else {
       if (y < h*.20) {
