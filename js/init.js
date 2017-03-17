@@ -34,7 +34,7 @@
         var id = $(this)[0].element.id;
         console.log(id);
         if(direction === 'down') {
-          console.log($('#nav-wrap #nav a[href="#' + id +']"'));
+          console.log($('#nav-wrap #nav a[href="#' + id +']"').element);
            $('#nav-wrap #nav a[href="#' + id +']"').parent().toggleClass('current');
         }
     },
