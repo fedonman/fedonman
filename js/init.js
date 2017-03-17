@@ -29,9 +29,9 @@
         // Highlight element when related content
         // is 10% percent from the bottom... 
         // remove if below
-        console.log($(this));
-        console.log($(this).element);
-        var id = $(this).element.attr('id');
+        console.log($(this)[0]);
+        console.log($(this)[0].element);
+        var id = $(this)[0].element.attr('id');
         console.log(id);
         if(direction === 'down') {
           console.log($('#nav-wrap #nav a[href="#' + id +']"'));
