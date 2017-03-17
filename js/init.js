@@ -34,7 +34,8 @@ function getRelatedNavigation(el){
      // is 10% percent from the bottom... 
      // remove if below
      var id = $(this).attr("id");
-     $('#nav-wrap #nav a[href="#' + id +']"').toggleClass('active', direction === 'down');
+     console.log(id);
+     $('#nav-wrap #nav a[href="#' + id +']"').parent().toggleClass('current', direction === 'down');
    }, {
      offset: '90%' // 
    });
