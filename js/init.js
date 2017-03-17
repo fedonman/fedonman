@@ -37,7 +37,7 @@
         navigation_links.parent().removeClass('current');
         $('#nav-wrap #nav a[href="#' + id +'"]').parent().addClass('current');
     },
-    offset: '35%'
+    offset: 'bottom-in-view'
   });
 
 /*----------------------------------------------------*/
