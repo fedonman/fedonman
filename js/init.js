@@ -27,17 +27,11 @@
   var navigation_links = $("#nav-wrap #nav a");
   $('.section').waypoint({
     handler: function(direction) {
-        // Highlight element when related content
-        // is 10% percent from the bottom... 
-        // remove if below
-        console.log($(this)[0]);
-        console.log($(this)[0].element);
         var id = $(this)[0].element.id;
-        console.log(id);
         navigation_links.parent().removeClass('current');
         $('#nav-wrap #nav a[href="#' + id +'"]').parent().addClass('current');
     },
-    offset: '35'
+    offset: '50%'
   });
 
 /*----------------------------------------------------*/
@@ -74,12 +68,12 @@
 /*----------------------------------------------------*/
 /*	Fade In/Out Primary Navigation
 ------------------------------------------------------*/
-  /* $(window).on('scroll', function() {
+  $(window).on('scroll', function() {
 		var h = $('header').height();
 		var y = $(window).scrollTop();
     var nav = $('#nav-wrap');
     if ( (y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
-      nav.fadeOut('fast');
+      //nav.fadeOut('fast');
     }
     else {
       if (y < h*.20) {
