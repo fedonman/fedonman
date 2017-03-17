@@ -35,7 +35,7 @@
         console.log(id);
         if(direction === 'down') {
           console.log($('#nav-wrap #nav a[href="#' + id +']"').element);
-           $('#nav-wrap #nav a[href="#' + id +']"').parent().toggleClass('current');
+           $('#nav-wrap #nav a[href="#' + id +'"]').parent().toggleClass('current');
         }
     },
     offset: '90%'
