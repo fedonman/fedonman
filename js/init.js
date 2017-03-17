@@ -24,6 +24,7 @@
 	    });
 	});
 
+  var navigation_links = $("#nav-wrap #nav a");
   $('.section').waypoint({
     handler: function(direction) {
         // Highlight element when related content
@@ -33,12 +34,10 @@
         console.log($(this)[0].element);
         var id = $(this)[0].element.id;
         console.log(id);
-        if(direction === 'down') {
-          console.log($('#nav-wrap #nav a[href="#' + id +']"').element);
-           $('#nav-wrap #nav a[href="#' + id +'"]').parent().toggleClass('current');
-        }
+        navigation_links.parent().removeClass('current');
+        $('#nav-wrap #nav a[href="#' + id +'"]').parent().addClass('current');
     },
-    offset: '90%'
+    offset: '35%'
   });
 
 /*----------------------------------------------------*/
