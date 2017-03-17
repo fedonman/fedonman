@@ -31,7 +31,7 @@
         // remove if below
         console.log($(this)[0]);
         console.log($(this)[0].element);
-        var id = $(this)[0].element.attr('id');
+        var id = $(this)[0].element.id;
         console.log(id);
         if(direction === 'down') {
           console.log($('#nav-wrap #nav a[href="#' + id +']"'));
