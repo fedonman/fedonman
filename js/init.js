@@ -1,6 +1,12 @@
 /*-----------------------------------------------------------------------------------
 /* MAIN JS
 -----------------------------------------------------------------------------------*/
+
+// Get link by section or article id
+function getRelatedNavigation(el){
+  return $('#nav-wrap #nav a[href=#'+$(el).attr('id')+']');
+}
+
  jQuery(document).ready(function($) {
 /*----------------------------------------------------*/
 /* FitText Settings
@@ -22,14 +28,6 @@
 	        window.location.hash = target;
 	    });
 	});
-
-  function getRelatedContent(el){
-    return $($(el).attr('href'));
-  }
-  // Get link by section or article id
-  function getRelatedNavigation(el){
-    return $('nav a[href=#'+$(el).attr('id')+']');
-  }
 
   $('.section')
    .waypoint(function(direction) {
