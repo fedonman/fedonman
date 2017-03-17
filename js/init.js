@@ -37,7 +37,7 @@
         navigation_links.parent().removeClass('current');
         $('#nav-wrap #nav a[href="#' + id +'"]').parent().addClass('current');
     },
-    offset: 'bottom-in-view'
+    offset: '35'
   });
 
 /*----------------------------------------------------*/
@@ -74,7 +74,7 @@
 /*----------------------------------------------------*/
 /*	Fade In/Out Primary Navigation
 ------------------------------------------------------*/
-   $(window).on('scroll', function() {
+  /* $(window).on('scroll', function() {
 		var h = $('header').height();
 		var y = $(window).scrollTop();
     var nav = $('#nav-wrap');
