@@ -27,11 +27,15 @@
   var navigation_links = $("#nav-wrap #nav a");
   $('.section').waypoint({
     handler: function(direction) {
-        var id = $(this)[0].element.id;
+        var current = $(this)[0];
+        if (direction === "up") {
+          current = current.prev();
+        }
+        var id = current.element.id;
         navigation_links.parent().removeClass('current');
         $('#nav-wrap #nav a[href="#' + id +'"]').parent().addClass('current');
     },
-    offset: '50%'
+    offset: '35%'
   });
 
 /*----------------------------------------------------*/
