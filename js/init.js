@@ -29,7 +29,7 @@
     handler: function(direction) {
         var current = $(this)[0];
         if (direction === "up") {
-          current = current.prev();
+          current = current.previous();
         }
         var id = current.element.id;
         navigation_links.parent().removeClass('current');
