@@ -20,7 +20,7 @@
 	50% { opacity:0; }
 	100% { opacity:1; }
 }
-#resume h1 span {
+#resume h2 span {
   white-space: nowrap;
 }
 
@@ -47,14 +47,6 @@
 #typed {
   color: #FFF;
   font-family: 'FuturaLight', sans-serif;
-}
-
-#about {
-  background: #D86830;
-}
-
-#about p {
-  color: #FFF;
 }
 
 #about .profile-pic {
