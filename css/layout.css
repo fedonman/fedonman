@@ -58,14 +58,14 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'FuturaKoyu', sans-serif;
+   font: 90px/1.1em "futura-pt", sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'FuturaRegular', serif;
+   font: 18px/1.9em "futura-pt", sans-serif;
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
@@ -130,7 +130,7 @@ header .scrolldown a:hover { color: #E74C3C; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'FuturaRegular', sans-serif;
+   font: 12px "futura-pt", sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -197,7 +197,7 @@ ul#nav li.current a { color: #E74C3C; }
 #about a:hover, #about a:focus { color: #F06000; }
 
 #about h2 {
-   font: 22px/30px 'FuturaKoyu', sans-serif;
+   font: 22px/30px "futura-pt", sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
@@ -245,7 +245,7 @@ ul#nav li.current a { color: #E74C3C; }
 }
 
 #resume h2 {
-   font: 18px/24px 'FuturaBold', sans-serif;
+   font: 18px/24px "futura-pt", sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -254,7 +254,7 @@ ul#nav li.current a { color: #E74C3C; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/25px 'FuturaRegular', sans-serif;
+   font: 25px/25px "futura-pt", sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -266,7 +266,7 @@ ul#nav li.current a { color: #E74C3C; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'FuturaLight', serif;
+   font: 16px/24px "futura-pt", sans-serif;
    color: #3c3c3c;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -298,7 +298,7 @@ ul#nav li.current a { color: #E74C3C; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'FuturaKoyu', sans-serif;
+	font: 15px "futura-pt", sans-serif;
    color: #3c3c3c;
 	text-transform: uppercase;
    letter-spacing: 2px;
@@ -440,7 +440,7 @@ ul#nav li.current a { color: #E74C3C; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'FuturaRegular', sans-serif;
+   font: 15px/24px "futura-pt", sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -514,11 +514,11 @@ ul#nav li.current a { color: #E74C3C; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'FuturaBold', sans-serif;
+   font: 14px/21px "futura-pt", sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'FuturaLight', sans-serif;
+   font: 12px/18px "futura-pt", sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
@@ -678,7 +678,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h2 {
-   font: 18px/24px 'FuturaBold', sans-serif;
+   font: 18px/24px "futura-pt", sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -823,7 +823,7 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'FuturaBold', sans-serif;
+   font: 18px/24px "futura-pt", sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -842,7 +842,7 @@ call-to-action .button {
 }
 
 #contact h4 {
-   font: 16px/24px 'FuturaBold', sans-serif;
+   font: 16px/24px "futura-pt", sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
@@ -856,7 +856,7 @@ call-to-action .button {
 /* contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
-   font: 15px/24px 'FuturaBold', sans-serif;
+   font: 15px/24px "futura-pt", sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
@@ -939,7 +939,7 @@ call-to-action .button {
    display: block;
 }
 #twitter li b a {
-   font: 13px/36px 'FuturaRegular', Sans-serif;
+   font: 13px/36px "futura-pt", sans-serif;
    color: #474747 !important;
    border: none;
 }
