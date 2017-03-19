@@ -66,12 +66,6 @@
   color: #FFF;
 }
 
-header .social li a:hover { color: #D86830; }
-header .scrolldown a:hover { color: #D86830; }
-#about a:hover, #about a:focus { color: #D86830; }
-footer a:hover, footer a:focus { color: #D86830; }
-#go-top a:hover { background-color: #D86830; }
-
 .ident {
   margin-left: 1rem;
 }
