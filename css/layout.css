@@ -58,14 +58,14 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em "futura-pt", sans-serif;
+   font: 90px/1.1em;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em "futura-pt", sans-serif;
+   font: 18px/1.9em;
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
@@ -130,7 +130,7 @@ header .scrolldown a:hover { color: #E74C3C; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px "futura-pt", sans-serif;
+   font: 12px;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -197,7 +197,7 @@ ul#nav li.current a { color: #E74C3C; }
 #about a:hover, #about a:focus { color: #F06000; }
 
 #about h2 {
-   font: 22px/30px "futura-pt", sans-serif;
+   font: 22px/30px;
    color: #fff;
    margin-bottom: 12px;
 }

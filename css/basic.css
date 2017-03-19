@@ -184,7 +184,7 @@ p.lead {
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
 em { font-style: italic; }
-strong, b { font: 15px/30px "futura-pt", sans-serif; }
+strong, b { font: 15px/30px 'Muli', sans-serif; }
 small { font-size: 11px; line-height: inherit; }
 
 /*	Blockquotes */
@@ -206,7 +206,7 @@ blockquote:before {
 	left: 0;
 }
 blockquote p {
-   font-family: 'FuturaRegular', sans-serif;
+   font-family: 'Muli', sans-serif;
    padding: 0;
    font-size: 18px;
    line-height: 36px;
@@ -262,7 +262,7 @@ blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Abbreviations */
 abbr {
-   font-family: 'FuturaBold', sans-serif;
+   font-family: 'Muli', sans-serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
    letter-spacing: .5px;
@@ -276,8 +276,8 @@ abbr:hover { cursor: help; }
 	margin: 0;
 	padding: 14px 6px 0 0;
 	font-size: 84px;
-	font-family: /* Copperplate */ 'FuturaBold', sans-serif;
-   line-height: 60px;
+	font-family: 'Muli', sans-serif;
+  line-height: 60px;
 	text-indent: 0;
 	background: transparent;
 	color: inherit;
@@ -347,7 +347,7 @@ li p { }
 .stats-tabs li a {
 	display: inline-block;
 	font-size: 22px;
-	font-family: 'FuturaBold', sans-serif;
+	font-family: "futura-pt", sans-serif;
    border: none;
    color: #313131;
 }
@@ -358,7 +358,7 @@ li p { }
 	display: block;
 	margin: 6px 0 0 0;
 	font-size: 13px;
-	font-family: 'FuturaRegular', sans-serif;
+	font-family: "futura-pt", sans-serif;
    color: #8B9798;
 }
 
@@ -414,7 +414,7 @@ dd { margin: 0 0 0 20px; }
    padding: 0;
 }
 .pagination .page-numbers {
-   font: 15px/18px 'FuturaBold', sans-serif;
+   /* font: 15px/18px 'FuturaBold', sans-serif; */
    display: inline-block;
    padding: 6px 10px;
    margin-right: 3px;
@@ -524,67 +524,6 @@ input::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
-
-
-/*  7. Forms  --------------------------------------------------------- */
-
-form { margin-bottom: 24px; }
-fieldset { margin-bottom: 24px; }
-
-input[type="text"],
-input[type="password"],
-input[type="email"],
-textarea,
-select {
-   display: block;
-   padding: 18px 15px;
-   margin: 0 0 24px 0;
-   border: 0;
-   outline: none;
-   vertical-align: middle;
-   min-width: 225px;
-	max-width: 100%;
-   font-size: 15px;
-   line-height: 24px;
-	color: #647373;
-	background: #D3D9D9;
-
-}
-
-/* select { padding: 0;
-   width: 220px;
-   } */
-
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-   color: #B3B7BC;
-	background-color: #3d4145;
-}
-
-textarea { min-height: 220px; }
-
-label,
-legend {
-   font: 16px/24px 'FuturaBold', sans-serif;
-	margin: 12px 0;
-   color: #3d4145;
-   display: block;
-}
-label span,
-legend span {
-	color: #8B9798;
-   font: 14px/24px 'FuturaRegular', sans-serif;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-    font-size: 15px;
-    color: #737373;
-}
-
-input[type="checkbox"] { display: inline; }
 
 /* ------------------------------------------------------------------ */
 /* d. Grid
