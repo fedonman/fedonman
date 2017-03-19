@@ -26,13 +26,9 @@ e. Others
 /* a. Webfonts and Icon fonts
  ------------------------------------------------------------------ */
 
-@import url("fontello/css/fontello.css");
+/* @import url("fontello/css/fontello.css"); */
 @import url("font-awesome/css/font-awesome.min.css");
-@import url("fonts/Futura/FuturaKoyu.css");
-@import url("fonts/Futura/FuturaBold.css");
-@import url("fonts/Futura/FuturaRegular.css");
-@import url("fonts/Futura/FuturaLight.css");
-@import url("https://fonts.googleapis.com/css?family=Muli:400,400italic");
+/* @import url("https://fonts.googleapis.com/css?family=Muli:400,400italic"); */
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -147,8 +143,7 @@ html {
 
 body {
   background: #fff;
-  font-family: 'FuturaRegular', sans-serif;
-  font-weight: normal;
+  font-family: "futura-pt", sans-serif;
   font-size: 15px;
   line-height: 25px;
 	color: #3c3c3c;
@@ -163,7 +158,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #313131;
-	font-family: 'FuturaBold', sans-serif;
+	font-family: "futura-pt", sans-serif;
   font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -189,7 +184,7 @@ p.lead {
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
 em { font-style: italic; }
-strong, b { font: 15px/30px 'FuturaBold', sans-serif; }
+strong, b { font: 15px/30px "futura-pt", sans-serif; }
 small { font-size: 11px; line-height: inherit; }
 
 /*	Blockquotes */

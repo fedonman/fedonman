@@ -631,7 +631,7 @@ ul#nav li.current a { color: #E74C3C; }
    margin-top: 12px;
 }
 #call-to-action h2 {
-   font: 28px/36px 'FuturaBold', sans-serif;
+   font: 28px/36px "futura-pt" sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
@@ -654,7 +654,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'FuturaRegular', sans-serif;
+	font-family: "futura-pt", sans-serif;
 	color: #D8D8D8;
 }
 
@@ -705,11 +705,11 @@ call-to-action .button {
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
-   font-family: 'FuturaRegular', serif;
-   padding: 0;
-   font-size: 24px;
-   line-height: 48px;
-   color: #fff
+    font-family: "futura-pt", sans-serif;
+    padding: 0;
+    font-size: 24px;
+    line-height: 48px;
+    color: #fff
 }
 #testimonials blockquote cite {
    display: block;
