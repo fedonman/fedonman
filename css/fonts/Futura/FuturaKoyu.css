@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'FuturaKoyu';
-    src: url('fonts/FuturaKoyu.eot');
-    src: url('fonts/FuturaKoyu.eot') format('embedded-opentype'),
-         url('fonts/FuturaKoyu.woff2') format('woff2'),
-         url('fonts/FuturaKoyu.woff') format('woff'),
-         url('fonts/FuturaKoyu.ttf') format('truetype'),
-         url('fonts/FuturaKoyu.svg#Futura_Koyu') format('svg');
-}
