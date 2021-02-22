@@ -1,5 +1,3 @@
-# [![fedonman header](https://github.com/fedonman/fedonman/blob/master/assets/social.png)](https://fedonman.com)
-
 ## Hi there 👋
 
 ### I'm a Full-Stack Developer from Greece.
