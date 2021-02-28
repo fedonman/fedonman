@@ -2,7 +2,7 @@
 
 ### I'm a Full-Stack Developer from Greece.
 
-#### NOW
+#### CURRENTLY
 
 - 👨‍💻 Crafting web applications at [ATCOM](https://www.atcom.gr/)
 - 👨‍🏫 [Training](https://www.youracclaim.com/badges/dc46755b-1c4c-4813-9098-f65447f75b49/public_url) people in Microsoft Azure technologies
@@ -11,7 +11,7 @@
 - 🧠 Organizing [Athens Deep Learning](https://www.meetup.com/athens-deep-learning/) meetup
 - 📢 Speaking in live or online [events](https://sessionize.com/fedonman/)
 
-#### BIO
+#### FUN FACTS
 
 - 🏢 Professionaly coding since **2008**
 - ⚙️ I use daily: `.cs`, `.cshtml`, `.html`, `.js`, `.jsx`, `.ts`, `.py`
