@@ -16,7 +16,7 @@
 - 🏢 Professionaly coding since **2008**
 - ⚙️ I use daily: `.cs`, `.cshtml`, `.html`, `.js`, `.jsx`, `.ts`, `.py`
 - 🌍 I'm mostly active within the **Azure Community**
-- 🌱 Learning all about **Quantum Computing**
+- 🌱 Hyped about **Quantum Computing** era
+- ⚡️ Favourite quote: 井の中の蛙大海を知らず
 - 💬 Ping me about **developing your dream app**, **mentoring / training**, **speaking to your event**
 - 📫 Reach me: [linkedin](https://www.linkedin.com/in/fedonman/), [twitter](https://twitter.com/fedonman)
-- ⚡️ Fun fact: I'm a huge fan of Harry Potter
