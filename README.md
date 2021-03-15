@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-### I'm a Full-Stack Developer from Greece.
+### I'm a Software Engineer from Greece.
 
 #### CURRENTLY
 
@@ -9,7 +9,7 @@
 - ✍️ Writing tech articles and tutorials on [Medium](https://fedonman.medium.com)
 - 💬 Mentoring young developers in hackathons and incubators
 - 🧠 Organizing [Athens Deep Learning](https://www.meetup.com/athens-deep-learning/) meetup
-- 📢 Speaking in live or online [events](https://sessionize.com/fedonman/)
+- 📢 [Speaking](https://sessionize.com/fedonman/) in live and online events
 
 #### FUN FACTS
 
