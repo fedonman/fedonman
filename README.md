@@ -6,7 +6,7 @@
 
 - 👨‍💻 Actively looking for a PhD or industry position in Quantum Computing
 - 👨‍🏫 [Training](https://www.youracclaim.com/badges/dc46755b-1c4c-4813-9098-f65447f75b49/public_url) people in Microsoft Azure technologies
-- ✍️ Writing tech articles and tutorials on ~~Medium~~ (new blog coming soon!)
+- ✍️ Writing tech articles and tutorials on [Medium](https://medium.com/@fedonman)
 - 💬 Mentoring young developers in hackathons and incubators
 - 🧠 Organizing [Athens Deep Learning](https://www.meetup.com/athens-deep-learning/) meetup
 - 📢 [Speaking](https://sessionize.com/fedonman/) in live and online events
