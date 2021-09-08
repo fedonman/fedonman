@@ -14,7 +14,7 @@
 #### FUN FACTS
 
 - 🏢 Professionaly coding since **2011**
-- ⚙️ I use daily: `.cs`, `py`, `.sql`, `.tf`, `.yml`, `.js`, `.jsx`, `.ts`, `.vue`, 
+- ⚙️ I use daily: `.cs`, `.py`, `.sql`, `.tf`, `.yml`, `.js`, `.jsx`, `.ts`, `.vue`, 
 - 💻 My [website](https://fedonman.com) is made with Gatsby and source code is hosted [here](https://github.com/fedonman/fedonman-website)
 - 🌍 I'm mostly active within the **Azure Community**
 - 🌱 Hyped about the coming **Quantum Computing** era
