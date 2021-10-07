@@ -2,6 +2,8 @@
 
 ### I'm a Software Engineer from Greece.
 
+![Vyron's GitHub Stats](https://github-readme-stats.vercel.app/api?username=fedonman&theme=highcontrast&show_icons=true&count_private=true)
+
 #### CURRENTLY
 
 - 👨‍💻 Actively looking for a PhD or industry position in Quantum Computing
