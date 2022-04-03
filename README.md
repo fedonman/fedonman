@@ -6,7 +6,8 @@
 
 #### CURRENTLY
 
-- 👨‍💻 Actively looking for a PhD or industry position in Quantum Computing
+- 👾 Senior software engineer at [BibeCoffee](https://bibecoffee.com)
+- 👀 Actively looking for a position in Quantum Computing
 - 👨‍🏫 [Training](https://www.youracclaim.com/badges/dc46755b-1c4c-4813-9098-f65447f75b49/public_url) people in Microsoft Azure technologies
 - ✍️ Writing tech articles and tutorials on [Medium](https://medium.com/@fedonman)
 - 💬 Mentoring young developers in hackathons and incubators
@@ -16,7 +17,7 @@
 #### FUN FACTS
 
 - 🏢 Professionaly coding since **2011**
-- ⚙️ I use daily: `.cs`, `.py`, `.sql`, `.tf`, `.yml`, `.js`, `.jsx`, `.ts`, `.vue`, 
+- ⚙️ I use daily: `.cs`, `.py`, `.sql`, `.rs`, `.qs`, `.tf`, `.yml`, `.js`, `.jsx`, `.ts`, `.vue`, 
 - 💻 My [website](https://fedonman.com) is made with Gatsby and source code is hosted [here](https://github.com/fedonman/fedonman-website)
 - 🌍 I'm mostly active within the **Azure Community**
 - 🌱 Hyped about the coming **Quantum Computing** era
