@@ -4,7 +4,7 @@
 
 #### CURRENTLY
 
-- 👾 Senior software engineer at [BibeCoffee](https://bibecoffee.com)
+- 👾 Senior software engineer, open for interesting projects
 - 👀 Actively looking for a position in Quantum Computing
 - 👨‍🏫 [Training](https://www.youracclaim.com/badges/dc46755b-1c4c-4813-9098-f65447f75b49/public_url) people in Microsoft Azure technologies
 - ✍️ Writing tech articles and tutorials on [Medium](https://medium.com/@fedonman)
