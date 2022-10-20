@@ -25,7 +25,7 @@
 
 ---
 
-<a href="https://www.credly.com/users/vyron-vasileiadis/badges" target="_blank">
+<a href="https://www.credly.com/users/vyron-vasileiadis/badges" target="_blank" style="text-decoration: none">
     <p align="center">
         <img src="./assets/microsoft-certified-trainer-2021-2022.png" width="100">
         <img src="./assets/ibm-certified-associate-developer-quantum-computation.png" width="100">
