@@ -22,5 +22,3 @@
 - ⚡️ Favourite quote: 井の中の蛙大海を知らず
 - 💬 Ping me about **developing your dream app**, **mentoring / training**, **speaking to your event**
 - 📫 Reach me: [linkedin](https://www.linkedin.com/in/fedonman/), [twitter](https://twitter.com/fedonman)
-
-![Vyron's GitHub Stats](https://github-readme-stats.vercel.app/api?username=fedonman&theme=highcontrast&show_icons=true&count_private=true)
