@@ -22,3 +22,17 @@
 - ⚡️ Favourite quote: 井の中の蛙大海を知らず
 - 💬 Ping me about **developing your dream app**, **mentoring / training**, **speaking to your event**
 - 📫 Reach me: [linkedin](https://www.linkedin.com/in/fedonman/), [twitter](https://twitter.com/fedonman)
+
+---
+
+<a href="https://www.credly.com/users/vyron-vasileiadis/badges" target="_blank">
+    <p align="center">
+        <img src="./assets/microsoft-certified-trainer-2021-2022.png" width="100">
+        <img src="./assets/ibm-certified-associate-developer-quantum-computation.png" width="100">
+    </p>
+    <p align="center">
+        <img src="./assets/microsoft-certified-azure-developer-associate.png" width="100">
+        <img src="./assets/microsoft-certified-azure-ai-engineer-associate.png" width="100">
+        <img src="./assets/microsoft-certified-azure-data-scientist-associate.png" width="100">
+    </p>
+</a>
