@@ -4,7 +4,7 @@
 
 #### CURRENTLY
 
-- 👾 Quantum Engineer at Qilimanjaro Quantum Tech
+- 👾 Quantum Engineer at [Qilimanjaro Quantum Tech](https://www.qilimanjaro.tech/)
 - 💬 Mentoring young developers in hackathons and incubators
 - 📢 [Speaking](https://sessionize.com/fedonman/) in live and online events
 
